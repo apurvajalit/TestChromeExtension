@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+</head>
+<body>
+    <div id="popupContainer" class="right">
+        <ul class="right top popup-ul">
+            <li class="popup-li"><a href="">Home</a></li>
+            <li class="popup-li"> | </li>
+            <li class="popup-li"><a href="">Settings</a></li>
+            <li class="popup-li"> | </li>
+            <li class="popup-li"><a href="">Logout</a></li>
+
+        </ul>
+        <a href="img/pen.png"><img src="app/img/HighLight.png" width="15" height="15" border="0" title="Pen"> </a>
+        <a href="img/HighLight.png"><img src="app/img/HighLight.png" width="15" height="15" border="0" title="Highlight"> </a>
+        <a href="img/comment.png"><img src="app/img/comment.png" width="15" height="15" border="0" title="Comment"> </a>
+
+        <form id="addbookmark">
+
+            <h1 align="center"> The Trail Maker </h1>
+            <label for="title">Title</label>
+            <br />
+            <input class="input-text" type="text" id="title" name="title" size="50" value="" />
+
+
+            <div class="exemple">
+                Rate :
+                <div class="basic" data-average="0" data-id="1"></div>
+            </div>
+            <br />
+
+
+            <p>
+                <label for="url">Url</label><br />
+                <input class="popup-input-text" type="text" id="url" name="url" size="50" value="" />
+            </p>
+            <p>
+                <label for="summary">Summary</label><br />
+                <textarea id="summary" name="summary" rows="2" cols="35"></textarea>
+            </p>
+
+            <p>
+                <label for="contexttag"> Current Topic Tag: </label>
+
+                <a class="right" href=""> Set Current Topic Tag </a>
+            </p>
+
+            <p>
+                <label for="tags">Tags</label>
+                <a href=""><img src="app/img/Hierarchy.png" width="15" height="15" border="0" title="Select from tree"> </a>
+                <br />
+                <input class="popup-input-text" type="text" id="tags" name="tags" size="50" value="" />
+                <input type="button" value="Add field" />
+
+            </p>
+
+            <p hidden="hidden">
+                <label for="metatags">Meta Tags</label><br />
+                <input class="popup-input-text" type="text" id="metatags" name="metatags" size="50" value="" />
+            </p>
+
+
+            <input id="readlater" type="checkbox" name="readLater" value="readLater">Read Later</input>
+            <input id="popup-offlineCopy" type="checkbox" name="offlineCopy" value="offlineCopy">Save Offline Copy</input>
+            <input id="privacy" type="checkbox" name="privacy" value="privacy">Private</input>
+            <p>
+                <div align="center">
+                    <input id="save" class="popupButtons" type="submit" value="Save" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="save" type="submit" class="popupButtons" value="Cancel" />
+                    <span id="status-display"></span>
+                </div>
+            </p>
+        </form>
+        <script src="injectedScripts/mainjs.js"></script>
+    </div>
+    
+    
+        
+       
+   </body>
+</html>

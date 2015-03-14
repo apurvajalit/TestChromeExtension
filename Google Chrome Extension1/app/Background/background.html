@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+    console.log("Background.html"); // This gets displayed. O.K.
+    alert("Hello!!")
+    function hello() {
+        console.log("Hello123"); // THIS NEVER GETS DISPLAYED
+    }
+
+    // Supposed to Called when the user clicks on the browser action icon.
+    chrome.browserAction.onClicked.addListener(hello);
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+

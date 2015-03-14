@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "One-click Kittens",
+    "description": "This extension demonstrates a browser action with kittens.",
+    "version": "1.0",
+
+    "permissions": [
+        "https://secure.flickr.com/",
+        "bookmarks",
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "activeTab",
+        "<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": "img/icon.png"
+    },
+    "background": {
+        "scripts": [ "background/background.js" ]
+
+    },
+    "web_accessible_resources": [
+        "injectedScripts/a.js","injectedScripts/mainjs.js","popup.html"
+    ]
+        
+}

@@ -1,0 +1,9 @@
+﻿body {
+    background-color: #b0c4de;
+}
+div.main_window {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+}

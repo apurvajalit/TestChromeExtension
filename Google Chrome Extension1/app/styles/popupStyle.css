@@ -1,0 +1,61 @@
+﻿   
+
+#popupContainer {
+    max-width: 420px;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin:1px;
+    padding:10px;
+    border: 1px groove;
+    border-radius: 5px;
+    
+}
+
+.right {
+    float: right;
+}    
+
+.top{
+    top: 10px;
+}
+.popup-input-text, popup-textarea {
+    width: 420px;
+    /**border-color: rgba(129,129,129,0.76);*/
+	border-width:thin;
+	border: 2px thin solid;
+	border-radius: 5px;
+}
+
+.popupButtons {
+    font-weight: bold;
+    width: auto;
+}
+			
+	
+.popup-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.popup-li {
+    display: inline;
+}
+	   
+		 
+#popup-offlineCopy {
+    margin: 0; 
+    padding-left: -10px;	
+}
+		
+.popup-rating-star {
+    width: 15px;
+    height: 15px;
+}
+	
+#popup-title{
+    border:hidden;
+    border-radius: 25px;
+}
+		  
